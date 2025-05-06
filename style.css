@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-image: url('/pictures/cosmic-backgraund.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+}
+
+form, ul {
+    margin: 80px auto;
+    max-width: 300px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+#result {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+.pic-quiz {
+    display: flex;
+    justify-content: center;
+}
+
+.main-helth-box {
+ background-color:#0a53e6b8;
+ padding: 30px;
+ width: 300px;
+}
+
+@keyframes bounce {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+}
+
+.animated-box {
+    animation: bounce 1s infinite;
+}
+.main-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 700;
+}
+.awereness-quest{
+    color: white;
+}
+.strawberry-animation {
+    width: 200px;
+    height: auto;
+}
+.awereness-main-section {
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    height: 100vh;
+}
+.numeracy-main-section {
+    background-color: #0a53e6b8;
+    height: auto;
+    width: 300px;
+}
+.literacy-main-section {
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    height: 100vh;
+    background-color: #0a53e6b8;
+    /* width: 300px; */
+    height: auto;
+    margin-bottom: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.main-title-literacy {
+    display: flex;
+    padding-top: 200px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 700; 
+}
+.welcome-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 700;   
+}
+.logotype {
+    width: 150px;
+    height: auto;
+    background-color: transparent;
+}
+.menu-list {
+    background-color: #0a53e6b8;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.main-history-box {
+    background-color: #0a53e6b8;
+    padding: 30px;
+    width: 300px;
+}
+.main-awareness-box {
+    background-color: #0a53e6b8;
+    padding: 30px;
+    width: 300px;
+    margin-top: 100px;
+}
+
+#feedback {
+    background-color: #e3f2fd9e;
+}
+#question {
+    color: white;
+}
+.name-lab {
+    color: white;
+}
+.email-lab {
+    color: white;
+}
